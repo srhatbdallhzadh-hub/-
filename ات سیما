@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>شبکه اتک سیما | اخبار، فیلم و سریال، پخش زنده</title>
+
+<style>
+:root {
+  --main: #e50914;
+  --bg: #0b0b0b;
+  --card: #161616;
+  --text: #ffffff;
+  --muted: #aaaaaa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+}
+
+header {
+  background: linear-gradient(135deg, #111, #000);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #111;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+
+nav a {
+  padding: 12px 5px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: var(--main);
+}
+
+.container {
+  padding: 20px;
+}
+
+.live-main {
+  background: var(--main);
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.section-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-right: 4px solid var(--main);
+  padding-right: 10px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 30px;
+}
+
+iframe {
+  border-radius: 12px;
+}
+
+@media(min-width:768px) {
+  body {
+    max-width: 420px;
+    margin: auto;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>شبکه اتک سیما</h1>
+  <p>اخبار | فیلم و سریال | پخش زنده</p>
+</header>
+
+<nav>
+  <a href="#home">خانه</a>
+  <a href="#news">اخبار</a>
+  <a href="#video">فیلم و سریال</a>
+  <a href="#live">پخش زنده</a>
+</nav>
+
+<div class="container" id="home">
+
+  <a href="#live" class="live-main">▶ مشاهده پخش زنده</a>
+
+  <div class="section-title">درباره شبکه</div>
+  <div class="card">
+    <p>
+      شبکه اتک سیما یک رسانه دیجیتال با تمرکز بر اطلاع‌رسانی سریع،
+      پخش محتوای تصویری و برنامه‌های زنده است.
+      این وب‌سایت با طراحی ساده و موبایل‌محور توسعه داده شده است.
+    </p>
+  </div>
+
+</div>
+
+<div class="container" id="news">
+  <div class="section-title">آخرین اخبار</div>
+
+  <div class="card">
+    <h3>راه‌اندازی رسمی شبکه اتک سیما</h3>
+    <p>نسخه اولیه وب‌سایت شبکه اتک سیما با تمرکز بر سرعت و دسترسی آسان منتشر شد.</p>
+  </div>
+
+  <div class="card">
+    <h3>تمرکز بر محتوای تصویری</h3>
+    <p>فیلم، سریال و برنامه‌های زنده از محورهای اصلی این شبکه هستند.</p>
+  </div>
+</div>
+
+<div class="container" id="video">
+  <div class="section-title">فیلم و سریال</div>
+
+  <div class="card">
+    <h3>فیلم نمونه</h3>
+    <p>اطلاعات و توضیح کوتاه درباره فیلم یا برنامه تصویری.</p>
+  </div>
+
+  <div class="card">
+    <h3>سریال نمونه</h3>
+    <p>معرفی کوتاه سریال و زمان پخش.</p>
+  </div>
+</div>
+
+<div class="container" id="live">
+  <div class="section-title">پخش زنده</div>
+
+  <div class="card">
+    <p style="margin-bottom:10px">
+      پخش زنده شبکه اتک سیما از همین صفحه قابل مشاهده خواهد بود.
+    </p>
+
+    <!-- لینک واقعی پخش زنده را اینجا قرار دهید -->
+    <!--
+    <iframe src="LIVE_LINK" width="100%" height="260" allowfullscreen></iframe>
+    -->
+  </div>
+</div>
+
+<footer>
+  © شبکه اتک سیما – تمامی حقوق محفوظ است
+</footer>
+
+</body>
+</html>
